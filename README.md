@@ -1,5 +1,6 @@
 # chat-application
-*Socket programming*:
+
+# Socket programming:
 
 Sockets can be thought of as endpoints in a communication channel that is bi-directional, 
 and establishes communication between a server and one or more clients. Here, we set up a socket on 
@@ -8,7 +9,7 @@ side are associated itself with the some hardware port on the server side. Any c
 with the same port can communicate with the server socket.
 
 
-Multi-Threading
+# Multi-Threading:
 
 A thread is sub process that runs a set of commands individually of any other thread. So, every time a user 
 connects to the server, a separate thread is created for that user and communication from server to client 
