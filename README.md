@@ -1,5 +1,5 @@
 # chat-application
-Socket programming:
+*Socket programming*:
 
 Sockets can be thought of as endpoints in a communication channel that is bi-directional, 
 and establishes communication between a server and one or more clients. Here, we set up a socket on 
