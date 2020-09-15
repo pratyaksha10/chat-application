@@ -24,4 +24,6 @@ The script will then stay open and receive connection requests, and will append 
 socket objects to a list to keep track of active connections. Every time a user connects,a separate thread will be created 
 for that user. In each thread, the server awaits a message, and sends that message to other users currently on the chat. If 
 the server encounters an error while trying to receive a message from a particular thread, it will exit that thread.
-
+ 
+ 
+A server has a bind() method which binds it to a specific ip and port so that it can listen to incoming requests on that ip and port.A server has a listen() method which puts the server into listen mode. This allows the server to listen to incoming connections. And last a server has an accept() and close() method. The accept method initiates a connection with the client and the close method closes the connection with the client.
