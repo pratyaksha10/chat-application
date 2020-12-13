@@ -16,7 +16,7 @@ while True:
     # maintains a list of possible input streams 
     sockets_list = [sys.stdin, server] 
   
-    """ There are two possible input situations. Either the 
+    """ There are mainly two possible input situations. Either the 
     user wants to give  manual input to send to other people, 
     or the server is sending a message  to be printed on the 
     screen. Select returns from sockets_list, the stream that 
